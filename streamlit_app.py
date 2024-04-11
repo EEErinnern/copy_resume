@@ -17,7 +17,7 @@ from graph_builder import *
 #import tensorflow as tf
 from streamlit_player import st_player
 
-st.set_page_config(page_title='mehul gupta\'s portfolio' ,layout="wide",page_icon='👨‍🔬')
+st.set_page_config(page_title='Yiping Chen\'s portfolio' ,layout="wide",page_icon='💃')
 
 st.subheader('About me')
 st.write(info['Brief'])
