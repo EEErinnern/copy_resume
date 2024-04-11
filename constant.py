@@ -3,7 +3,17 @@ import graphviz as graphviz
 
 edu = [['B.Tech','CSE','2020','IIIT Jabalpur','8.1 CGPA'],['12th','Science','2016','Bhavan\'s KDKVM', '94.2%'],['10th','-','2012','Bhavan\'s KDKVM','10 CGPA']]
 
-info = {'name':'Yiping Chen', 'Brief':'I’m a quantitative-focused Economics Master's student with a strong passion for data analysis and risk management. Experienced in data analysis and model development with credit data and patent research using Python and SQL, with proficiency in reporting and data visualization tools. Skilled financial correspondent and program producer with experience in project management and strong communication ability.','photo':{'path':'abc.jpg','width':150}, 'Mobile':'+4915251715232','Email':'chenerin1995@gmail.com','City':'Mannheim,Germany','edu':pd.DataFrame(edu,columns=['Qualification','Stream','Year','Institute','Score']),'skills':['Data Analysis','Python','PowerBI','Streamlit','PySpark','Pandas','NumPy','R','Stata','Machine Learning'],'achievements':['1','2','3','4',]}
+info = {
+    'name': 'Yiping Chen',
+    'Brief': "I’m a quantitative-focused Economics Master's student with a strong passion for data analysis and risk management. Experienced in data analysis and model development with credit data and patent research using Python and SQL, with proficiency in reporting and data visualization tools. Skilled financial correspondent and program producer with experience in project management and strong communication ability.",
+    'photo': {'path': 'abc.jpg', 'width': 150},
+    'Mobile': '+4915251715232',
+    'Email': 'chenerin1995@gmail.com',
+    'City': 'Mannheim, Germany',
+    'edu': pd.DataFrame(edu, columns=['Qualification', 'Stream', 'Year', 'Institute', 'Score']),
+    'skills': ['Data Analysis', 'Python', 'PowerBI', 'Streamlit', 'PySpark', 'Pandas', 'NumPy', 'R', 'Stata', 'Machine Learning'],
+    'achievements': ['1', '2', '3', '4']  # Removed the extra comma at the end
+}
 
 models = ('Fashion MNIST samples using GAN','Cycle GAN for Image Translation')
 cycle_models = ('Winter to Summer','Summer to Winter')
